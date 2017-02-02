@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F9618611E42D5660088A5E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9618601E42D5660088A5E4 /* AppDelegate.swift */; };
+		3F9618631E42D5660088A5E4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F9618621E42D5660088A5E4 /* GameScene.sks */; };
+		3F9618651E42D5660088A5E4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F9618641E42D5660088A5E4 /* Actions.sks */; };
+		3F9618671E42D5660088A5E4 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9618661E42D5660088A5E4 /* Game.xcassets */; };
+		3F9618691E42D5660088A5E4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9618681E42D5660088A5E4 /* GameScene.swift */; };
+		3F96186B1E42D5660088A5E4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F96186A1E42D5660088A5E4 /* GameViewController.swift */; };
+		3F96186E1E42D5660088A5E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F96186C1E42D5660088A5E4 /* Main.storyboard */; };
+		3F9618701E42D5660088A5E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F96186F1E42D5660088A5E4 /* Assets.xcassets */; };
+		3F96187B1E42D5660088A5E4 /* TVOS_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F96187A1E42D5660088A5E4 /* TVOS_GameTests.swift */; };
+		3F9618861E42D5660088A5E4 /* TVOS_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9618851E42D5660088A5E4 /* TVOS_GameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F9618771E42D5660088A5E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F9618551E42D5650088A5E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F96185C1E42D5650088A5E4;
+			remoteInfo = "TVOS Game";
+		};
+		3F9618821E42D5660088A5E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F9618551E42D5650088A5E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F96185C1E42D5650088A5E4;
+			remoteInfo = "TVOS Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F96185D1E42D5660088A5E4 /* TVOS Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TVOS Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9618601E42D5660088A5E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F9618621E42D5660088A5E4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3F9618641E42D5660088A5E4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		3F9618661E42D5660088A5E4 /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
+		3F9618681E42D5660088A5E4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		3F96186A1E42D5660088A5E4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3F96186D1E42D5660088A5E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F96186F1E42D5660088A5E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F9618711E42D5660088A5E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9618761E42D5660088A5E4 /* TVOS GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TVOS GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F96187A1E42D5660088A5E4 /* TVOS_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVOS_GameTests.swift; sourceTree = "<group>"; };
+		3F96187C1E42D5660088A5E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9618811E42D5660088A5E4 /* TVOS GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TVOS GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9618851E42D5660088A5E4 /* TVOS_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVOS_GameUITests.swift; sourceTree = "<group>"; };
+		3F9618871E42D5660088A5E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F96185A1E42D5650088A5E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9618731E42D5660088A5E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F96187E1E42D5660088A5E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F9618541E42D5650088A5E4 = {
+			isa = PBXGroup;
+			children = (
+				3F96185F1E42D5660088A5E4 /* TVOS Game */,
+				3F9618791E42D5660088A5E4 /* TVOS GameTests */,
+				3F9618841E42D5660088A5E4 /* TVOS GameUITests */,
+				3F96185E1E42D5660088A5E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F96185E1E42D5660088A5E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F96185D1E42D5660088A5E4 /* TVOS Game.app */,
+				3F9618761E42D5660088A5E4 /* TVOS GameTests.xctest */,
+				3F9618811E42D5660088A5E4 /* TVOS GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F96185F1E42D5660088A5E4 /* TVOS Game */ = {
+			isa = PBXGroup;
+			children = (
+				3F9618601E42D5660088A5E4 /* AppDelegate.swift */,
+				3F9618621E42D5660088A5E4 /* GameScene.sks */,
+				3F9618641E42D5660088A5E4 /* Actions.sks */,
+				3F9618661E42D5660088A5E4 /* Game.xcassets */,
+				3F9618681E42D5660088A5E4 /* GameScene.swift */,
+				3F96186A1E42D5660088A5E4 /* GameViewController.swift */,
+				3F96186C1E42D5660088A5E4 /* Main.storyboard */,
+				3F96186F1E42D5660088A5E4 /* Assets.xcassets */,
+				3F9618711E42D5660088A5E4 /* Info.plist */,
+			);
+			path = "TVOS Game";
+			sourceTree = "<group>";
+		};
+		3F9618791E42D5660088A5E4 /* TVOS GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F96187A1E42D5660088A5E4 /* TVOS_GameTests.swift */,
+				3F96187C1E42D5660088A5E4 /* Info.plist */,
+			);
+			path = "TVOS GameTests";
+			sourceTree = "<group>";
+		};
+		3F9618841E42D5660088A5E4 /* TVOS GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F9618851E42D5660088A5E4 /* TVOS_GameUITests.swift */,
+				3F9618871E42D5660088A5E4 /* Info.plist */,
+			);
+			path = "TVOS GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F96185C1E42D5650088A5E4 /* TVOS Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F96188A1E42D5660088A5E4 /* Build configuration list for PBXNativeTarget "TVOS Game" */;
+			buildPhases = (
+				3F9618591E42D5650088A5E4 /* Sources */,
+				3F96185A1E42D5650088A5E4 /* Frameworks */,
+				3F96185B1E42D5650088A5E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TVOS Game";
+			productName = "TVOS Game";
+			productReference = 3F96185D1E42D5660088A5E4 /* TVOS Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F9618751E42D5660088A5E4 /* TVOS GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F96188D1E42D5660088A5E4 /* Build configuration list for PBXNativeTarget "TVOS GameTests" */;
+			buildPhases = (
+				3F9618721E42D5660088A5E4 /* Sources */,
+				3F9618731E42D5660088A5E4 /* Frameworks */,
+				3F9618741E42D5660088A5E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F9618781E42D5660088A5E4 /* PBXTargetDependency */,
+			);
+			name = "TVOS GameTests";
+			productName = "TVOS GameTests";
+			productReference = 3F9618761E42D5660088A5E4 /* TVOS GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F9618801E42D5660088A5E4 /* TVOS GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9618901E42D5660088A5E4 /* Build configuration list for PBXNativeTarget "TVOS GameUITests" */;
+			buildPhases = (
+				3F96187D1E42D5660088A5E4 /* Sources */,
+				3F96187E1E42D5660088A5E4 /* Frameworks */,
+				3F96187F1E42D5660088A5E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F9618831E42D5660088A5E4 /* PBXTargetDependency */,
+			);
+			name = "TVOS GameUITests";
+			productName = "TVOS GameUITests";
+			productReference = 3F9618811E42D5660088A5E4 /* TVOS GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F9618551E42D5650088A5E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jose Ramon Soto";
+				TargetAttributes = {
+					3F96185C1E42D5650088A5E4 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = R2GP5BM8SH;
+						ProvisioningStyle = Automatic;
+					};
+					3F9618751E42D5660088A5E4 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = R2GP5BM8SH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F96185C1E42D5650088A5E4;
+					};
+					3F9618801E42D5660088A5E4 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = R2GP5BM8SH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F96185C1E42D5650088A5E4;
+					};
+				};
+			};
+			buildConfigurationList = 3F9618581E42D5650088A5E4 /* Build configuration list for PBXProject "TVOS Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F9618541E42D5650088A5E4;
+			productRefGroup = 3F96185E1E42D5660088A5E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F96185C1E42D5650088A5E4 /* TVOS Game */,
+				3F9618751E42D5660088A5E4 /* TVOS GameTests */,
+				3F9618801E42D5660088A5E4 /* TVOS GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F96185B1E42D5650088A5E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9618631E42D5660088A5E4 /* GameScene.sks in Resources */,
+				3F9618651E42D5660088A5E4 /* Actions.sks in Resources */,
+				3F9618671E42D5660088A5E4 /* Game.xcassets in Resources */,
+				3F96186E1E42D5660088A5E4 /* Main.storyboard in Resources */,
+				3F9618701E42D5660088A5E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9618741E42D5660088A5E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F96187F1E42D5660088A5E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F9618591E42D5650088A5E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9618691E42D5660088A5E4 /* GameScene.swift in Sources */,
+				3F96186B1E42D5660088A5E4 /* GameViewController.swift in Sources */,
+				3F9618611E42D5660088A5E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9618721E42D5660088A5E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F96187B1E42D5660088A5E4 /* TVOS_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F96187D1E42D5660088A5E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9618861E42D5660088A5E4 /* TVOS_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F9618781E42D5660088A5E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F96185C1E42D5650088A5E4 /* TVOS Game */;
+			targetProxy = 3F9618771E42D5660088A5E4 /* PBXContainerItemProxy */;
+		};
+		3F9618831E42D5660088A5E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F96185C1E42D5650088A5E4 /* TVOS Game */;
+			targetProxy = 3F9618821E42D5660088A5E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F96186C1E42D5660088A5E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F96186D1E42D5660088A5E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F9618881E42D5660088A5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		3F9618891E42D5660088A5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F96188B1E42D5660088A5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = R2GP5BM8SH;
+				INFOPLIST_FILE = "TVOS Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jose-Enterprises.TVOS-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		3F96188C1E42D5660088A5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = R2GP5BM8SH;
+				INFOPLIST_FILE = "TVOS Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jose-Enterprises.TVOS-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		3F96188E1E42D5660088A5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R2GP5BM8SH;
+				INFOPLIST_FILE = "TVOS GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jose-Enterprises.TVOS-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVOS Game.app/TVOS Game";
+			};
+			name = Debug;
+		};
+		3F96188F1E42D5660088A5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R2GP5BM8SH;
+				INFOPLIST_FILE = "TVOS GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jose-Enterprises.TVOS-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVOS Game.app/TVOS Game";
+			};
+			name = Release;
+		};
+		3F9618911E42D5660088A5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = R2GP5BM8SH;
+				INFOPLIST_FILE = "TVOS GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jose-Enterprises.TVOS-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "TVOS Game";
+			};
+			name = Debug;
+		};
+		3F9618921E42D5660088A5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = R2GP5BM8SH;
+				INFOPLIST_FILE = "TVOS GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jose-Enterprises.TVOS-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "TVOS Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F9618581E42D5650088A5E4 /* Build configuration list for PBXProject "TVOS Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9618881E42D5660088A5E4 /* Debug */,
+				3F9618891E42D5660088A5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F96188A1E42D5660088A5E4 /* Build configuration list for PBXNativeTarget "TVOS Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F96188B1E42D5660088A5E4 /* Debug */,
+				3F96188C1E42D5660088A5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F96188D1E42D5660088A5E4 /* Build configuration list for PBXNativeTarget "TVOS GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F96188E1E42D5660088A5E4 /* Debug */,
+				3F96188F1E42D5660088A5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F9618901E42D5660088A5E4 /* Build configuration list for PBXNativeTarget "TVOS GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9618911E42D5660088A5E4 /* Debug */,
+				3F9618921E42D5660088A5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F9618551E42D5650088A5E4 /* Project object */;
+}
